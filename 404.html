@@ -4,12 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
     <title>yp-ui</title><meta name="description" content="">
-    <link rel="modulepreload" href="/yp-ui-doc/assets/app.c26c1abd.js"><link rel="modulepreload" href="/yp-ui-doc/assets/404.html.e3bfa38e.js"><link rel="modulepreload" href="/yp-ui-doc/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/yp-ui-doc/assets/404.html.8338caf2.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.04c3058a.js"><link rel="prefetch" href="/yp-ui-doc/assets/button.html.2aa7810e.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.97745e81.js"><link rel="prefetch" href="/yp-ui-doc/assets/menu.html.a908090a.js"><link rel="prefetch" href="/yp-ui-doc/assets/ypInput.html.c01ea075.js"><link rel="prefetch" href="/yp-ui-doc/assets/design.html.d7309190.js"><link rel="prefetch" href="/yp-ui-doc/assets/installation.html.aae08653.js"><link rel="prefetch" href="/yp-ui-doc/assets/quickstart.html.34be7e16.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.f8ba3e56.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.d26b1b76.js"><link rel="prefetch" href="/yp-ui-doc/assets/button.html.d13d7005.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.d35f5378.js"><link rel="prefetch" href="/yp-ui-doc/assets/menu.html.9757dbef.js"><link rel="prefetch" href="/yp-ui-doc/assets/ypInput.html.1baca870.js"><link rel="prefetch" href="/yp-ui-doc/assets/design.html.bed043c6.js"><link rel="prefetch" href="/yp-ui-doc/assets/installation.html.a8314b59.js"><link rel="prefetch" href="/yp-ui-doc/assets/quickstart.html.d728a429.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.589b1272.js">
-    
+    <link rel="modulepreload" href="/yp-ui-doc/assets/app.fa5d6957.js"><link rel="modulepreload" href="/yp-ui-doc/assets/404.html.4e6762ba.js"><link rel="modulepreload" href="/yp-ui-doc/assets/404.html.265028f6.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.089daf6c.js"><link rel="prefetch" href="/yp-ui-doc/assets/button.html.aef82afd.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.c8b76a34.js"><link rel="prefetch" href="/yp-ui-doc/assets/menu.html.66f22341.js"><link rel="prefetch" href="/yp-ui-doc/assets/ypInput.html.4e2b8dde.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.f5d71327.js"><link rel="prefetch" href="/yp-ui-doc/assets/design.html.4d564c3c.js"><link rel="prefetch" href="/yp-ui-doc/assets/installation.html.d1ff6f66.js"><link rel="prefetch" href="/yp-ui-doc/assets/quickstart.html.652b1d19.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.4cc68869.js"><link rel="prefetch" href="/yp-ui-doc/assets/button.html.e90929e4.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.90d86657.js"><link rel="prefetch" href="/yp-ui-doc/assets/menu.html.f7335473.js"><link rel="prefetch" href="/yp-ui-doc/assets/ypInput.html.d0788f7f.js"><link rel="prefetch" href="/yp-ui-doc/assets/index.html.f218678b.js"><link rel="prefetch" href="/yp-ui-doc/assets/design.html.b02f8a6e.js"><link rel="prefetch" href="/yp-ui-doc/assets/installation.html.6f8bd466.js"><link rel="prefetch" href="/yp-ui-doc/assets/quickstart.html.0d1a63c6.js"><link rel="prefetch" href="/yp-ui-doc/assets/404.9c3fb05a.js"><link rel="prefetch" href="/yp-ui-doc/assets/Layout.87d83788.js">
+    <link rel="stylesheet" href="/yp-ui-doc/assets/style.b5849fe3.css">
   </head>
   <body>
-    <div id="app"><!--[--><404></404><!--]--></div>
-    <script type="module" src="/yp-ui-doc/assets/app.c26c1abd.js" defer></script>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/yp-ui-doc/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/yp-ui-doc/assets/app.fa5d6957.js" defer></script>
   </body>
 </html>
