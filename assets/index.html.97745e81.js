@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3ac0b8e0","path":"/zh-CN/component/","title":"","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u5168\u5C40CSS","slug":"\u5168\u5C40css","children":[{"level":3,"title":"\u57FA\u7840\u6837\u5F0F","slug":"\u57FA\u7840\u6837\u5F0F","children":[]}]}]}');export{e as data};

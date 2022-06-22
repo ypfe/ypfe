@@ -1,0 +1,11 @@
+import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";import{o as a,c as n,d as i}from"./app.c26c1abd.js";const r={},d=i(`<h1 id="\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5" aria-hidden="true">#</a> \u5B89\u88C5</h1><h2 id="\u73AF\u5883\u652F\u6301" tabindex="-1"><a class="header-anchor" href="#\u73AF\u5883\u652F\u6301" aria-hidden="true">#</a> \u73AF\u5883\u652F\u6301</h2><p>yp-ui\u662F\u4EE5Vue3\u548CElement-plus\u4E3A\u57FA\u7840\uFF0C \u6240\u4EE5\u53EF\u4EE5\u5728\u652F\u6301 ES2018 \u548C ResizeObserver \u7684\u6D4F\u89C8\u5668\u4E0A\u8FD0\u884C\u3002</p><p>\u7531\u4E8E Vue 3 \u4E0D\u518D\u652F\u6301 IE11\uFF0Cyp-ui \u4E5F\u4E0D\u518D\u652F\u6301 IE \u6D4F\u89C8\u5668\u3002</p><h2 id="\u7248\u672C" tabindex="-1"><a class="header-anchor" href="#\u7248\u672C" aria-hidden="true">#</a> \u7248\u672C</h2><p>\u6301\u7EED\u8FED\u4EE3\u4E2D</p><h2 id="\u5B89\u88C5-1" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5-1" aria-hidden="true">#</a> \u5B89\u88C5</h2><h3 id="\u4F7F\u7528\u5305\u7BA1\u7406\u5668" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528\u5305\u7BA1\u7406\u5668" aria-hidden="true">#</a> \u4F7F\u7528\u5305\u7BA1\u7406\u5668</h3><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code># \u9009\u62E9\u4E00\u4E2A\u4F60\u559C\u6B22\u7684\u5305\u7BA1\u7406\u5668
+
+# NPM
+$ npm install yp-ui --save
+
+# Yarn
+$ yarn add yp-ui
+
+# pnpm
+$ pnpm install yp-ui
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>\u5982\u679C\u7F51\u7EDC\u73AF\u5883\u4E0D\u597D\uFF0C\u5EFA\u8BAE\u4F7F\u7528\u76F8\u5173\u955C\u50CF\u670D\u52A1 <a href="https://github.com/cnpm/cnpm" target="_blank" rel="noopener noreferrer">cnpm</a> \u6216 \u4E2D\u56FD NPM \u955C\u50CF\u3002</p><blockquote><p>\u63D0\u793A \u5EFA\u8BAE\u5B89\u88C5\u6700\u65B0\u7248\u672C</p></blockquote>`,11),s=[d];function l(t,c){return a(),n("div",null,s)}var o=e(r,[["render",l],["__file","installation.html.vue"]]);export{o as default};
