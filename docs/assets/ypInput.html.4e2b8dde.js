@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-10bd3d56","path":"/zh-CN/component/ypInput.html","title":"YPInput","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Props","slug":"props","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/component/ypInput.md"}');export{t as data};
